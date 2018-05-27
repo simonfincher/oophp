@@ -1,0 +1,11 @@
+{
+    "name": "simonfincher/oophp",
+    "description": "Object-oriented PHP",
+    "authors": [
+        {
+            "name": "Simon Fincher",
+            "email": "simonfincher@example.com"
+        }
+    ],
+    "require": {}
+}
