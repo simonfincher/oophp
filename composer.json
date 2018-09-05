@@ -7,5 +7,12 @@
             "email": "simonfincher@example.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Oophp\\ChapterTwo\\": "src/chapter_two",
+            "Oophp\\School\\": "src/school",
+            "Oophp\\Composition\\": "src/composition"
+        }
+    }
 }
