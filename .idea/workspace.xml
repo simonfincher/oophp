@@ -2,31 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52aed7da-2d2e-493c-96b4-805747750b30" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index-composition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index-lunch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index-person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index-region.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/AegeanCat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/Cat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/Dog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/Food.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/Lunch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/Mammal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/MammalInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/Person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/RegionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/Town.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter_two/Village.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/composition/HeadTeacher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/composition/Person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/composition/Teacher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/HeadTeacher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/Person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/Teacher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-builder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/Pizza.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/PizzaBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/BmwSevenSeries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/BmwThreeSeries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/CarFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/CarInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/Json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/Link.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/ReaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/json/blogs.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/oophp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oophp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
@@ -44,48 +34,52 @@
     <session id="266662890">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="6" />
+          <entry key="json" value="12" />
+          <entry key="lock" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="56" />
+          <entry key="php" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="6" />
+          <entry key="JSON" value="12" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="56" />
+          <entry key="PHP" value="86" />
+          <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="json" value="104" />
-          <entry key="php" value="8353" />
+          <entry key="json" value="250" />
+          <entry key="php" value="12314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="11" />
+          <entry key="PHP Class.type" value="18" />
+          <entry key="PHP Interface.type" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="104" />
-          <entry key="PHP" value="8353" />
+          <entry key="JSON" value="250" />
+          <entry key="PHP" value="12314" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -94,39 +88,63 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/composition/Person.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/composition/Teacher.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index-composition.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#7#48#0#PHP" expanded="true" />
-                <element signature="e#89#118#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index-builder.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="17" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <element signature="e#7#44#0#PHP" expanded="true" />
+                    <element signature="e#85#109#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/builder/Pizza.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="314">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/builder/PizzaBuilder.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="640">
+                  <caret line="66" selection-start-line="66" selection-end-line="66" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/builder/PizzaBuilder.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1260">
+                  <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,9 +173,27 @@
         <option value="$PROJECT_DIR$/src/school/HeadTeacher.php" />
         <option value="$PROJECT_DIR$/src/composition/Teacher.php" />
         <option value="$PROJECT_DIR$/src/composition/HeadTeacher.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/composition/Person.php" />
         <option value="$PROJECT_DIR$/index-composition.php" />
+        <option value="$PROJECT_DIR$/test/HeadTeacher.php" />
+        <option value="$PROJECT_DIR$/test/Person.php" />
+        <option value="$PROJECT_DIR$/test/Teacher.php" />
+        <option value="$PROJECT_DIR$/test/index-composition.php" />
+        <option value="$PROJECT_DIR$/src/json/blogs.json" />
+        <option value="$PROJECT_DIR$/index-json.php" />
+        <option value="$PROJECT_DIR$/src/json/Json.php" />
+        <option value="$PROJECT_DIR$/src/json/Text.php" />
+        <option value="$PROJECT_DIR$/src/json/Link.php" />
+        <option value="$PROJECT_DIR$/src/json/ReaderInterface.php" />
+        <option value="$PROJECT_DIR$/src/factory/BmwThreeSeries.php" />
+        <option value="$PROJECT_DIR$/src/factory/BmwSevenSeries.php" />
+        <option value="$PROJECT_DIR$/src/factory/CarInterface.php" />
+        <option value="$PROJECT_DIR$/src/factory/CarFactory.php" />
+        <option value="$PROJECT_DIR$/index-factory.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/index-builder.php" />
+        <option value="$PROJECT_DIR$/src/builder/PizzaBuilder.php" />
+        <option value="$PROJECT_DIR$/src/builder/Pizza.php" />
       </list>
     </option>
   </component>
@@ -206,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,18 +258,13 @@
               <item name="oophp" type="b2602c69:ProjectViewProjectNode" />
               <item name="oophp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="composition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oophp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oophp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,11 +276,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/factory" />
       <recent name="$PROJECT_DIR$/src/composition" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/json" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/chapter_two" />
     </key>
   </component>
@@ -266,36 +299,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.index-composition.php">
+  <component name="RunManager" selected="PHP Script.index-builder.php">
+    <configuration name="index-builder.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index-builder.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index-composition.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test/index-composition.php">
+      <method v="2" />
+    </configuration>
     <configuration name="index-composition.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index-composition.php">
       <method v="2" />
     </configuration>
-    <configuration name="index-lunch.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index-lunch.php">
+    <configuration name="index-factory.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index-factory.php">
       <method v="2" />
     </configuration>
-    <configuration name="index-person.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index-person.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="index-region.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index-region.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+    <configuration name="index-json.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index-json.php">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.index.php" />
-      <item itemvalue="PHP Script.index-person.php" />
-      <item itemvalue="PHP Script.index-region.php" />
-      <item itemvalue="PHP Script.index-lunch.php" />
       <item itemvalue="PHP Script.index-composition.php" />
+      <item itemvalue="PHP Script.index-composition.php (1)" />
+      <item itemvalue="PHP Script.index-json.php" />
+      <item itemvalue="PHP Script.index-factory.php" />
+      <item itemvalue="PHP Script.index-builder.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.index-builder.php" />
+        <item itemvalue="PHP Script.index-factory.php" />
+        <item itemvalue="PHP Script.index-json.php" />
         <item itemvalue="PHP Script.index-composition.php" />
-        <item itemvalue="PHP Script.index-lunch.php" />
-        <item itemvalue="PHP Script.index-region.php" />
-        <item itemvalue="PHP Script.index-person.php" />
-        <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="PHP Script.index-composition.php (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +349,11 @@
       <workItem from="1536070850090" duration="3903000" />
       <workItem from="1536130979668" duration="5438000" />
       <workItem from="1536136437202" duration="1623000" />
+      <workItem from="1536160667823" duration="99000" />
+      <workItem from="1536218039325" duration="4884000" />
+      <workItem from="1536562637584" duration="4102000" />
+      <workItem from="1536650803978" duration="2855000" />
+      <workItem from="1536659312875" duration="3196000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup.">
       <created>1527413851759</created>
@@ -328,18 +366,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36107000" />
+    <option name="totallyTimeSpent" value="51948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="2560" height="1392" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.13176751" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.13773885" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32951757" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39983648" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32951757" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39983648" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -368,6 +405,17 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial project setup." />
     <option name="LAST_COMMIT_MESSAGE" value="Initial project setup." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index-builder.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -492,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="325" selection-start-line="325" selection-end-line="325" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index-lunch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -534,42 +575,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/composition/HeadTeacher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="36">
+          <caret line="2" column="5" selection-start-line="2" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/composition/Teacher.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/composition/Person.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="288">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/HeadTeacher.php" />
+    <entry file="file://$PROJECT_DIR$/test/Person.php" />
+    <entry file="file://$PROJECT_DIR$/test/Teacher.php" />
+    <entry file="file://$PROJECT_DIR$/test/index-composition.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index-composition.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="72">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="2" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/Json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/Text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="23" selection-start-line="12" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/Link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="22" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/ReaderInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/blogs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" selection-start-line="1" selection-end-line="11" selection-end-column="20" />
           <folding>
-            <element signature="e#7#48#0#PHP" expanded="true" />
-            <element signature="e#89#118#0#PHP" expanded="true" />
+            <element signature="e#7#41#0#PHP" expanded="true" />
+            <element signature="e#82#102#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/CarFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/BmwThreeSeries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/BmwSevenSeries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/CarInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="19" selection-start-line="1" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#7#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#7#44#0#PHP" expanded="true" />
+            <element signature="e#85#109#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/Pizza.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/PizzaBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>

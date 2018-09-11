@@ -7,12 +7,17 @@
             "email": "simonfincher@example.com"
         }
     ],
-    "require": {},
+    "require": {
+        "ext-json": "*"
+    },
     "autoload": {
         "psr-4": {
             "Oophp\\ChapterTwo\\": "src/chapter_two",
             "Oophp\\School\\": "src/school",
-            "Oophp\\Composition\\": "src/composition"
+            "Oophp\\Composition\\": "src/composition",
+            "Oophp\\Json\\": "src/json",
+            "Oophp\\Factory\\": "src/factory",
+            "Oophp\\Builder\\": "src/builder"
         }
     }
 }
