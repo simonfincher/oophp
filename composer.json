@@ -17,7 +17,8 @@
             "Oophp\\Composition\\": "src/composition",
             "Oophp\\Json\\": "src/json",
             "Oophp\\Factory\\": "src/factory",
-            "Oophp\\Builder\\": "src/builder"
+            "Oophp\\Builder\\": "src/builder",
+            "Oophp\\StructuralPatterns\\Composite\\": "src/structural_patterns/composite"
         }
     }
 }

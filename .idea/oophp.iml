@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/builder" isTestSource="false" packagePrefix="Oophp\Builder\" />
       <sourceFolder url="file://$MODULE_DIR$/src/school" isTestSource="false" packagePrefix="Oophp\School\" />
       <sourceFolder url="file://$MODULE_DIR$/src/composition" isTestSource="false" packagePrefix="Oophp\Composition\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/structural_patterns/composite" isTestSource="false" packagePrefix="Oophp\StructuralPatterns\Composite\" />
       <sourceFolder url="file://$MODULE_DIR$/src/chapter_two" isTestSource="false" packagePrefix="Oophp\ChapterTwo\" />
       <sourceFolder url="file://$MODULE_DIR$/src/factory" isTestSource="false" packagePrefix="Oophp\Factory\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />

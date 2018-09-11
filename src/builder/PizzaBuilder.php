@@ -29,9 +29,14 @@ class PizzaBuilder {
 
   /**
    * Adds extra cheese.
+   *
+   * @return \Oophp\Builder\PizzaBuilder
+   *   The instance of the pizza object.
    */
-  public function addCheese() {
+  public function addCheese(): PizzaBuilder {
     $this->extraCheese = TRUE;
+
+    return $this;
   }
 
   /**
@@ -39,9 +44,21 @@ class PizzaBuilder {
    *
    * @param int $size
    *   The size of the pizza.
+   *
+   * @return \Oophp\Builder\PizzaBuilder
+   *   The instance of the pizza object.
+   *
+   * @throws \Exception
    */
-  public function setSize(int $size) {
+  public function setSize(int $size): PizzaBuilder {
+
+    if ($size < 7) {
+      throw new \Exception('Pizza too small!');
+    }
+
     $this->size = $size;
+
+    return $this;
   }
 
   /**
@@ -49,22 +66,27 @@ class PizzaBuilder {
    *
    * @param string $sauce
    *   The type of sauce.
+   *
+   * @return \Oophp\Builder\PizzaBuilder
+   *   The instance of the pizza object.
    */
-  public function setSauce(string $sauce) {
+  public function setSauce(string $sauce): PizzaBuilder {
     $this->sauce = $sauce;
+
+    return $this;
   }
 
   /**
-   * Gets the name of the pizza.
+   * Gets the name of the pizza builder object's property.
    *
    * @param string $name
-   *   The given name of the pizza.
+   *   The name of the pizza property given.
    *
    * @return string
-   *   The name of the pizza.
+   *   The value of the given pizza property.
    */
   public function __get($name) {
-    return $this->name;
+    return $this->$name;
   }
 
 }
