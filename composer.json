@@ -8,7 +8,11 @@
         }
     ],
     "require": {
-        "ext-json": "*"
+        "ext-json": "*",
+        "php": ">7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
     },
     "autoload": {
         "psr-4": {
@@ -18,7 +22,8 @@
             "Oophp\\Json\\": "src/json",
             "Oophp\\Factory\\": "src/factory",
             "Oophp\\Builder\\": "src/builder",
-            "Oophp\\StructuralPatterns\\Composite\\": "src/structural_patterns/composite"
+            "Oophp\\StructuralPatterns\\Composite\\": "src/structural_patterns/composite",
+            "Oophp\\Testing\\": "src/testing"
         }
     }
 }
